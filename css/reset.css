@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+a,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-sizing:border-box;
+}
+
+html{
+  overflow-y: scroll;
+}
+
+html::-webkit-scrollbar{
+  display: none;
+}
+
+
+html,
+body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    font: normal 16px/1  'Noto Sans KR','Roboto', 'Montserrat','Nanum Gothic', Sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+ul,li,ol{
+  list-style: none;
+}
+
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+i,em,address{
+  font-style: normal;
+}
+
+.blind{
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+}
+
+.hide{
+  display: none;
+}
+
+.en_font{
+  font-family: 'Roboto','Noto Sans KR','Montserrat',sans-serif;
+}
