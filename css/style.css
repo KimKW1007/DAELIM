@@ -197,7 +197,7 @@
 #wrap #main #section3 .container .content .left .left_wrap div a p { font-size: 14px; line-height: 1.5; } 
 
 
-#wrap #main #section3 .container .content .right { width: 65%; padding: 3.125% 3.125%; background: #f5f5f5; } 
+#wrap #main #section3 .container .content .right { width: 65%; padding: 3.125% 3.125% 0; background: #f5f5f5; } 
 #wrap #main #section3 .container .content .right .right_wrap { width: 100%; max-width: 830px; } 
 #wrap #main #section3 .container .content .right .right_wrap .r_title { width: 100%; margin: 0 0 40px; } 
 #wrap #main #section3 .container .content .right .right_wrap .r_title h3 { font-size: 22px; display: flex; line-height: 1.2; } 
