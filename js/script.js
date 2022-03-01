@@ -183,6 +183,33 @@
                 }
               }
             })
+            slide_view.on({
+              touchstart(e){
+                mStart = e.originalEvent.touches[0].clientX; 
+              },
+              touchend(e){
+                mEnd = e.originalEvent.changedTouches[0].clientX; 
+                console.log(e.originalEvent);
+                if(mStart - mEnd > 0){
+                  if(cnt >= slideLength - 1){
+                    mainSlide(0)
+                    chkStart()
+                  }else{
+                    mainSlide(cnt + 1)
+                    chkStart()
+                  }
+                }
+                if(mStart - mEnd < 0){
+                  if(cnt < 0){
+                    mainSlide(slideLength - 1)
+                    chkStart()
+                  }else{
+                    mainSlide(cnt - 1)
+                    chkStart()
+                  }
+                }
+              }
+            })
           
 
             /* 플레이 퍼즈 버튼이벤트 */
