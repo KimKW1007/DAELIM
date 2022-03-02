@@ -224,7 +224,6 @@
             function chkStart(){
               if(play_btn.hasClass('pause')){
                 clearInterval(timer)
-                console.log('clear');
               }else{
                 stopRestart()
               }
@@ -244,7 +243,6 @@
               second = 0;
               reStart = setInterval(function(){
                 second++;
-                console.log(second);
                 if(second == 2){
                   if(play_btn.hasClass('pause')){
                     clearInterval(timer);
